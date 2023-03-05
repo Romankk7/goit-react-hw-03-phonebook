@@ -1,0 +1,11 @@
+.filter_wrap {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.input {
+    width: 100px;
+    height: 15px;
+    border-radius: 5px;
+}

@@ -1,0 +1,30 @@
+.phonebook_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.phonebook_form {
+    display: grid;
+    justify-items: start;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.button {
+    color: #000;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button:hover,
+.button:focus {
+    color: #fff;
+    background-color: #008000;
+}

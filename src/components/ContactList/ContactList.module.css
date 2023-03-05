@@ -1,0 +1,31 @@
+.contacts_wrapper {
+    display: grid;
+    justify-items: center;
+}
+
+.contact_list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+    width: 300px;
+    padding: 0;
+}
+
+.contact_items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    margin-left: 8px;
+    color: #000;
+    border: none;
+
+}
+
+.button:hover,
+.button:focus {
+    color: #fff;
+    background-color: #ff0000;
+}
