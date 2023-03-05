@@ -14,7 +14,7 @@ class Contacts extends Component {
   };
 
   componentDidMount() {
-    const contacts = JSON.parse(localStorage.getItem('my-contacts'));
+    const contacts = JSON.parse(localStorage.getItem('contacts'));
     if (contacts && contacts.length) {
       this.setState({ contacts });
     }
